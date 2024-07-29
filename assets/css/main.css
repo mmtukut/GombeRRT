@@ -212,6 +212,19 @@ h6 {
   box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
 }
 
+/* General Logo Styling */
+.logo img {
+  max-width: 100%; /* Ensure logo scales with container width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 767px) { /* Targeting devices with a max width of 767px */
+  .logo img {
+    max-width: 80%; /* Adjust as needed for better fit on smaller screens */
+  }
+}
+
 /* Index Page Header
 ------------------------------*/
 .index-page .header {
